@@ -34,8 +34,9 @@ class ServerBuildTestTests: XCTestCase {
     }
     
     func testSethSpecial() {
-        var isEqual = t.hello() == 5
+        let isEqual = t.hello() == 5
         XCTAssert(isEqual)
+        XCTAssert(t.hello() != 3)
         
     }
 

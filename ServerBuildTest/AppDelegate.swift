@@ -16,7 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         var ans = h.hello()
-        print("loading another thing: \(ans)")
+        print("loading another thing adding cover coverage: \(ans)")
         
     }
 
