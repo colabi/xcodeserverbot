@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         let ans = h.hello()
         print("test another thing adding cover coverage: \(ans + 2)")
-        
+        print("retest")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
