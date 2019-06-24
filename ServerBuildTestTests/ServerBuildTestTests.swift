@@ -11,8 +11,10 @@ import XCTest
 
 class ServerBuildTestTests: XCTestCase {
 
+    var t:TestCode!
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        t = TestCode()
     }
 
     override func tearDown() {
@@ -32,6 +34,7 @@ class ServerBuildTestTests: XCTestCase {
     }
     
     func testSethSpecial() {
+        XCTAssert(t.hello() == 5)
         
     }
 
