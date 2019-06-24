@@ -22,6 +22,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+        var ans = h.hello()
+        print("terminate: \(ans)")
+        
     }
 
 
