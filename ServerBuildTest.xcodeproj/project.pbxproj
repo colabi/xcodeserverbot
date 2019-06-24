@@ -427,14 +427,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 89PA3NYMJK;
+				DEVELOPMENT_TEAM = 9552FHDJA9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = ServerBuildTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exo.ideas.apps..ServerBuildTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exo.ideas.apps.ServerBuildTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -449,14 +449,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 89PA3NYMJK;
+				DEVELOPMENT_TEAM = 9552FHDJA9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = ServerBuildTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.exo.ideas.apps..ServerBuildTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exo.ideas.apps.ServerBuildTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
