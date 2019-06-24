@@ -16,14 +16,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         var ans = h.hello()
-        print("loading another thing adding cover coverage: \(ans)")
+        print("loading another thing adding cover coverage: \(ans + 2)")
         
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
-        var ans = h.hello()
-        print("terminate: \(ans)")
+        
         
     }
 
