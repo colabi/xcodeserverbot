@@ -11,10 +11,11 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+    
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        print("loading 0")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
